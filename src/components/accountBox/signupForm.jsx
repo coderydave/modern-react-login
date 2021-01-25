@@ -21,10 +21,10 @@ export function SignupForm(props) {
         <Input type="password" placeholder="Password" />
         <Input type="password" placeholder="Confirm Password" />
       </FormContainer>
-      <Marginer direction="vertical" margin={10} />
+      <Marginer direction="vertical" margin={16} />
       <SubmitButton type="submit">Signup</SubmitButton>
       <Marginer direction="vertical" margin="1em" />
-      <MutedLink href="#">
+      <MutedLink>
         Already have an account?
         <BoldLink href="#" onClick={switchToSignin}>
           Signin
